@@ -23,7 +23,7 @@ const Process = () => {
                     <div class="card-body grid justify-center">
                         <span className='text-6xl '><DiAndroid></DiAndroid></span>
                         <div class="badge badge-outline m-4">Step 1</div>
-                        <Link to='/explore'><h2 className='mb-4 text-2xl font-bold'>Plan For Work</h2></Link>
+                        <Link to='/explore'><h2 className='hover:text-red-300 mb-4 text-2xl font-bold'>Plan For Work</h2></Link>
                         <span>Through plans, you break down a </span>
                         <span>process into small
                             and identify the </span>
@@ -40,7 +40,7 @@ const Process = () => {
                         <div class="card-body grid justify-center">
                             <span className='text-6xl mb-4'><DiAptana></DiAptana> </span>
                             <div class="badge badge-outline mb-4">Step 2</div>
-                            <Link to='explore'><h2 className='mb-4 text-2xl font-bold'>Implementation</h2></Link>
+                            <Link to='explore'><h2 className='hover:text-red-300  mb-4 text-2xl font-bold'>Implementation</h2></Link>
                             <span>Through plans, you break down a </span>
                             <span>process into small
                                 and identify the </span>
@@ -56,7 +56,7 @@ const Process = () => {
                         <div class="card-body grid justify-center">
                             <span className='text-6xl mb-4'><DiYeoman></DiYeoman></span>
                             <div class="badge badge-outline mb-4">Step 3</div>
-                            <Link to='/explore'><h2 className='mb-4 text-2xl font-bold'>Consultancy</h2></Link>
+                            <Link to='/explore'><h2 className='hover:text-red-300 mb-4 text-2xl font-bold'>Consultancy</h2></Link>
                             <span>Through plans, you break down a </span>
                             <span>process into small
                                 and identify the </span>
@@ -72,7 +72,7 @@ const Process = () => {
                         <div class="card-body grid justify-center">
                             <span className='text-6xl mb-4'><DiGoogleAnalytics></DiGoogleAnalytics></span>
                             <div class="badge badge-outline mb-4">Step 4</div>
-                            <Link to='/explore'><h2 className='mb-4 text-2xl font-bold'>Project Closure</h2></Link>
+                            <Link to='/explore'><h2 className='hover:text-red-300 mb-4 text-2xl font-bold'>Project Closure</h2></Link>
                             <span>Through plans, you break down a </span>
                             <span>process into small
                                 and identify the </span>
