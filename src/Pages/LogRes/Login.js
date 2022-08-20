@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-function Login() {
+const Login = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <div>
+      
+    </div>
+  );
+};
 
-export default Login
+export default Login;
