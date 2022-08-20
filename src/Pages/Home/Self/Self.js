@@ -2,8 +2,8 @@ import React from 'react';
 
 const Self = () => {
     return (
-        <div className=''>
-            <div class="flex-1 card lg:card-side bg-base-100 shadow-xl border-none rounded-none lg:px-12 px-4">
+        <div className='mb-12'>
+            <div class="flex-1 card lg:card-side bg-base-100 border-none rounded-none lg:px-12 px-4">
                 <div class="card-body">
                     <div>
                         <span
