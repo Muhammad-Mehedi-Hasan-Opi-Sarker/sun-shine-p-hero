@@ -7,6 +7,9 @@ import Registration from './Pages/LogRes/Registration';
 import Header from './Pages/sheard/Header';
 import Explore from './Pages/Process/Explore';
 import Empty from './Pages/Empty';
+import Services from './Pages/Services/Services';
+import About from './Pages/About';
+import Blog from './Pages/Blog/Blog';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
      <Routes>
       <Route path='/' element={<Home></Home>}></Route>
       <Route path='/home' element={<Home></Home>}></Route>
+      <Route path='/services' element={<Services></Services>}></Route>
+      <Route path='/about' element={<About></About>}></Route>
+      <Route path='/blog' element={<Blog></Blog>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>
       <Route path='/explore' element={<Explore></Explore>}></Route>
       <Route path='/registration' element={<Registration></Registration>}></Route>

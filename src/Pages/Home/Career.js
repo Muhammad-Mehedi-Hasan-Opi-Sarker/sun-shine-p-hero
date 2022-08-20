@@ -3,9 +3,9 @@ import { GoBook,GoBookmark } from "react-icons/go";
 
 const Career = () => {
     return (
-        <div className='grid lg:grid-cols-2 justify-items-center mb-20'>
-                <div className="card card-compact w-96 bg-base-100 shadow-xl border rounded-none">
-                    <div className="card-body flex">
+        <div className='grid lg:grid-cols-2 justify-items-center mb-20 lg:px-20'>
+                <div className="mb-4 card card-compact w-96 bg-base-100 shadow-xl border rounded-none">
+                    <div className="card-body flex p-5">
                     <div className='text-4xl'>
                     <GoBook></GoBook>        
                     </div>
@@ -19,7 +19,7 @@ const Career = () => {
                 </div>
         
                 <div className="card card-compact w-96 bg-base-100 shadow-xl border rounded-none">
-                    <div className="card-body flex">
+                    <div className="card-body flex p-5">
                         <div className='text-4xl'>
                             <GoBookmark></GoBookmark>
                         </div>

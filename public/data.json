@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/illustration-8.png",
+        "name": "Master of Business Administration (MBA)",
+        "a": "All Levels",
+        "b": "45 minutes"
+    },
+    {
+        "id": 2,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/illustration-7.png",
+        "name": "How to success through market segmentation",
+        "a": "Expert",
+        "b": "59 minutes"
+    },
+    {
+        "id": 3,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/illustration-6.png",
+        "name": "Programing and Web Development",
+        "a": "Expert",
+        "b": "45 minutes"
+    },
+    {
+        "id": 4,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/illustration-5.jpg",
+        "name": "Successful Negotiation: Master Your Negotiating Skills",
+        "a": "Expert",
+        "b": "59 minutes"
+    },
+    {
+        "id": 5,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/illustration-4.png",
+        "name": "Global Master of Business Administration Science",
+        "a": "Expert",
+        "b": "45 minutes"
+    },
+    {
+        "id": 6,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/illustration-3.png",
+        "name": "Computer Fundamentals Basic Startup",
+        "a": "Expert",
+        "b": "59 minutes"
+    },
+    {
+        "id": 7,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/illustration-2.png",
+        "name": "Computer Fundamentals Basic Startup",
+        "a": "All Levels",
+        "b": "39 minutes"
+    },
+    {
+        "id": 8,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/course-1.png",
+        "name": "Global Master of Business Administration Science",
+        "a": "All Levels",
+        "b": "39 minutes"
+    },
+    {
+        "id": 9,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/course-15.jpg",
+        "name": "Successful Negotiation: Master Your Negotiating Skills",
+        "a": "Expert",
+        "b": "59 minutes"
+    },
+    {
+        "id": 10,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/course-31-300x200.jpg",
+        "name": "Expand your career opportunities with Python",
+        "a": "Expert",
+        "b": "59 minutes"
+    },
+    {
+        "id": 11,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/course-30-300x200.jpg",
+        "name": "Expand your career opportunities with Python",
+        "a": "Expert",
+        "b": "39 minutes"
+    },
+    {
+        "id": 12,
+        "img": "https://themexriver.com/wp/avarton/wp-content/uploads/2022/01/course-29-300x200.jpg",
+        "name": "Successful Negotiation: Master Your Negotiating Skills",
+        "a": "Expert",
+        "b": "45 minutes"
+    }
+]
