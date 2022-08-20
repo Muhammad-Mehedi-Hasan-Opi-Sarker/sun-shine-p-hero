@@ -9,7 +9,7 @@ const FeaturedCourses = () => {
                 <h1 className='font-bold text-5xl mb-12'>Featured Courses</h1>
             </div>
 
-            <div className='grid lg:grid-cols-4 gap-6'>
+            <div className='grid lg:grid-cols-4 gap-6 mb-20'>
 
                 {/* card 1 */}
                 <div class="card w-fit bg-base-100 rounded-none">
