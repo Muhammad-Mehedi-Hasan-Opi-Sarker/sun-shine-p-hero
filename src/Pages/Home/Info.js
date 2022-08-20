@@ -4,8 +4,8 @@ import { VscCheck } from 'react-icons/vsc';
 
 const Info = () => {
     return (
-        <div className=''>
-            <div className="lg:px-12 px-2 card lg:card-side bg-base-100 shadow-xl"
+        <div className='mb-24'>
+            <div className="lg:px-12 px-2 card lg:card-side bg-base-100 rounded-none"
                 style={{ backgroundColor: 'rgb(251,247,245)' }}>
                 <figure className='lg:p-12 p-8'><img src={about} alt="Movie" /></figure>
                 <div className="card-body">
