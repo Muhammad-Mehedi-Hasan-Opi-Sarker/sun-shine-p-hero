@@ -10,6 +10,7 @@ import Empty from './Pages/Empty';
 import Services from './Pages/Services/Services';
 import About from './Pages/About';
 import Blog from './Pages/Blog/Blog';
+import Footer from './Pages/sheard/Footer';
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
       <Route path='/blog' element={<Blog></Blog>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>
       <Route path='/explore' element={<Explore></Explore>}></Route>
-      <Route path='/registration' element={<Registration></Registration>}></Route>
+      <Route path='/register' element={<Registration></Registration>}></Route>
       <Route path='/*' element={<Empty></Empty>}></Route>
      </Routes>
+     <Footer></Footer>
     </div>
   );
 }

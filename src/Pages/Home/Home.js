@@ -1,6 +1,5 @@
 import React from 'react';
 import Process from '../Process/Process';
-import Footer from '../sheard/Footer';
 import Banner from './Banner';
 import Career from './Career';
 import Carosul from './Carosul/Carosul';
@@ -20,7 +19,6 @@ const Home = () => {
      <FeaturedCourses></FeaturedCourses>
      <Career></Career>
      <Customer></Customer>
-     <Footer></Footer>
     </div>
   );
 };
