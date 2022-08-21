@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeaturedCourses = () => {
     return (
-        <div className='lg:px-12 px-2' style={{ backgroundColor: 'rgb(251,247,245)' }}>
+        <div className='lg:px-12 px-5' style={{ backgroundColor: 'rgb(251,247,245)' }}>
 
             <div className='grid justify-items-center'>
                 <p className='font-bold mb-5 mt-20'>Featured</p>
