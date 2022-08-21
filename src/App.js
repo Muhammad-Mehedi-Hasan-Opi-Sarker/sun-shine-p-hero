@@ -11,6 +11,7 @@ import Services from './Pages/Services/Services';
 import About from './Pages/About';
 import Blog from './Pages/Blog/Blog';
 import Footer from './Pages/sheard/Footer';
+import RequireAuth from './Pages/RequireAuth';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
      <Routes>
       <Route path='/' element={<Home></Home>}></Route>
       <Route path='/home' element={<Home></Home>}></Route>
-      <Route path='/services' element={<Services></Services>}></Route>
+      <Route path='/services' element={
+        <RequireAuth><Services></Services></RequireAuth>
+      }></Route>
       <Route path='/about' element={<About></About>}></Route>
       <Route path='/blog' element={<Blog></Blog>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>

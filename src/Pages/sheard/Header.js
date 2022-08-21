@@ -8,9 +8,9 @@ const Header = () => {
     const [user, loading, error] = useAuthState(auth);
     const nav = <>
         <li><Link to='/home'>Home</Link></li>
-        {
-            user&& <li><Link to='/services'>Services</Link></li>
-        }
+       
+          <li><Link to='/services'>Services</Link></li>
+        
         <li><Link to='about'>About</Link></li>
         <li><Link to='/blog' >Blog</Link></li>
     </>

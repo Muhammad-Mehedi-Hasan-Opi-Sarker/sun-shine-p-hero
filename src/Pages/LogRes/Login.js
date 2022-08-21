@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import {Link} from 'react-router-dom';
+import {Link,useLocation} from 'react-router-dom';
 import auth from '../../firebase.init';
 import { useNavigate } from "react-router-dom";
 import Loading from '../sheard/Loading';
@@ -8,6 +8,8 @@ import SocialLogin from '../sheard/SocialLogin/SocialLogin';
 
 const Login = () => {
   const navigate =useNavigate();
+  const location = useLocation()
+    let from = location.state?.from?.pathname || "/";
 
   const [
     signInWithEmailAndPassword,
@@ -27,7 +29,7 @@ const Login = () => {
     return <Loading></Loading>
   }
   if (user) {
-    navigate('/home')
+    navigate(from, { replace: true });
   }
 
   // login for 
